@@ -1,0 +1,242 @@
+@media(min-width:960px){
+    .tb-header {
+        display: none;
+    }
+    .main-img {
+        padding-top: 110px;
+    }
+    .main-img-ttl {
+        text-align: left;
+    }
+    .comp-name p {
+        font-size: 14px;
+    }
+    .comp-name img{
+        width: 170px;
+    }
+    .address {
+        font-size: 9px;
+    }
+    .copy {
+        margin-top: 30px;
+
+    }
+    .pc-footer {
+        display: block;
+    }
+    
+.pc-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pc-f {
+    flex: auto;
+    width: 30%;
+}
+.pc-f-list {
+    flex: auto;
+    width: 70%;
+}
+.f-list1 p,.f-list2 p,.f-list3 p {
+    padding-top: 15px;
+}
+.pc-f-list p {
+
+    line-height: 0;
+    font-size: 14px
+}
+.pc-f-list a {
+    font-size: 14px;
+}  
+.pc-f-list li {
+    padding-bottom:4px ;
+    font-weight: lighter;
+    font-size:8px ;
+}
+.pc-f-list {
+    padding-top:30px ;
+    font-weight: bold;
+    display: flex;
+    flex-wrap: wrap;
+}
+.f-list1,.f-list3, .f-list4{
+    flex: auto;
+    width: 20%;
+}
+.f-list2 {
+    flex: auto;
+    width: 27%;
+}
+    .sp-f {
+        display: none;
+    }
+}
+
+@media(max-width:960px){
+    .pc-header,.list {
+        display: none;
+    }
+    .main-img {
+        padding-top: 46px;
+    }
+    .main-img-ttl {
+        text-align: center;
+        font-size:25px ;
+    }
+    .sp-f {
+        text-align: center;
+    }
+    .copy {
+        text-align: center;
+    }
+    .pc-footer {
+        display: none;
+    }
+    .sp-f {
+        display: block;
+    }
+}
+
+@media(min-width:811px){
+    
+    .nayami ul {
+        display: flex;
+        justify-content: center;
+    }
+    .graf {
+        display: flex;
+    }
+    .graf img {
+        width: 50%;
+        padding-right: 20px;
+    }
+    .kinou {
+        text-align: center;
+    }
+    .kinou-ttl {
+        height: 50px;
+        margin: auto ;
+    }
+.kinou li {
+    flex: auto;
+    width: calc(100%/3);
+    padding: 10px;
+}
+.kinou li img {
+    width: 100%;
+}
+.kuwasiku {
+    padding: 60px 0;
+}
+.kuwasiku-a b {
+    font-size: 25px;
+}
+.kuwasiku-a {
+    width: 800px;
+    padding:  17px 60px;
+}
+.kuwasiku-a a {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.sarani h1 {
+    font-size: 25px;
+    padding: 30px 0;
+}
+.sarani li {
+    height: auto;
+    flex: auto;
+}
+.li-right {
+    padding-left: 25px;
+}
+.teian h1 {
+    font-size: 30px;
+}
+.teian li {
+   font-size:  20px;
+}
+}
+
+@media(max-width:811px){ 
+    .pc {
+        display: none;
+    }
+    .graf img {
+        width: 100%;
+        height: auto;
+    }
+    .main-img {
+        padding-top: 46px;
+    }
+    .kinou-ttl ,.explan{
+        text-align: left;
+    }
+    .kinou ul {
+        flex-direction: column;
+    }
+    .kinou li {
+        padding: 0 20pxs;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .kinou li img {
+        width: 33%;
+        
+    }
+    .kuwasiku {
+        padding: 40px 0;
+    }
+.kuwasiku-a b {
+    font-size: 20px;
+}
+.kuwasiku-a {
+    width: 90%;
+    padding: 10px 40px;
+}
+.kuwasiku-a a {
+    color: white;
+    font-size: 30px;
+}
+    .sarani h1 {
+        font-size: 22px;
+        padding: 30px 0;
+    }
+    .sarani-contents img {
+        width: 100%;
+    }
+    .sarani-contents li {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .teian h1 {
+        font-size: 25px;
+    }
+    .teian li {
+        font-size: 21px;
+    }
+}
+
+@media(max-width:638px){
+    .sp {
+        display: block;
+    }
+    .sp-f {
+        width: 100%;
+    }
+    .comp-name {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .address {
+        font-size: 15px;
+        padding-left: 30px;
+        text-align: left;
+        color: #d4d7d8;
+    }
+    .copy {
+        text-align: center;
+    }
+}
